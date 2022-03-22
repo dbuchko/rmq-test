@@ -40,12 +40,12 @@ To run them you'll need all the dependencies.
 The `Publish` app takes one argument, an identifier (for running multiple instances of the app).  Eg:
 
 ``` shell
-javac -cp $CP -d target Publish.java p0
+java -cp $CP Publish p0
 ```
 
 The `Consume` app takes a single argument, the queue name.  Eg:
 
 ``` shell
-javac -cp $CP -d target Consume.java q0
+java -cp $CP Consume q0
 ```
 
